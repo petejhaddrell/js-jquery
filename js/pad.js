@@ -29,9 +29,9 @@ function buildgrid (size)
 		}
 	}
 
-	//need to put in size altering code for the container currently 16 * 14 = gridsize * (gridsize - 2)
+	//14 relates to the size of each box
 	var contSize = 14 * size;
-	alert (contSize);
+
 	$('#container').css ({'width' : contSize, 'height' : contSize});
 
 	$('.block').on ("mouseenter", function()
